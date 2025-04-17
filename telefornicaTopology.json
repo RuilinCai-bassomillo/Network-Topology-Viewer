@@ -1,0 +1,426 @@
+{
+    "ietf-network:networks": {
+        "network":[
+            {
+                "network-types": {
+                    "ietf-l3-isis-topology:isis-topology": {
+                    },
+                    "ietf-l3-unicast-topology:l3-unicast-topology": {
+                    }
+                },
+                "network-id": "tid",
+                "node":[
+                    {
+                        "node-id": "5.5.5.5",
+                        "ietf-l3-unicast-topology:l3-node-attributes": {
+                            "name": "HL5-2-2",
+                            "router-id": ["5.5.5.5"],
+                            "prefix": [
+                                {
+                                    "prefix": "10.95.90.125/24"
+                                }
+                            ]
+                        },
+                        "ietf-network-topology:termination-point": [
+                            {
+                                "tp-id": "eth-1/0/10.42",
+                                "ietf-l3-unicast-topology:l3-termination-point-attributes": {
+                                    "ip-address": ["99.4.42.5/24","2001::99:4:42:5/112"]              
+                                }
+                            },
+                            {
+                                "tp-id": "eth-1/0/20.55",
+                                "ietf-l3-unicast-topology:l3-termination-point-attributes": {
+                                    "ip-address": ["99.5.20.2/24","2001::99:5:20:2/112"]              
+                                }
+                            },
+                            {
+                                "tp-id": "eth-1/0/20.533",
+                                "ietf-l3-unicast-topology:l3-termination-point-attributes": {
+                                    "ip-address": ["172.16.12.12/16"]              
+                                }
+                            },
+                            {   
+                                "tp-id": "eth-1/0/22.111",
+                                "ietf-l3-unicast-topology:l3-termination-point-attributes": {
+                                    "ip-address": ["172.16.4.1/24"]              
+                                }
+                            },
+                            {
+                                "tp-id": "eth-1/0/25.55",
+                                "ietf-l3-unicast-topology:l3-termination-point-attributes": {
+                                    "ip-address": ["99.5.55.2/24","2001::99:5:55:2/112"]              
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "node-id": "5.5.5.1",
+                        "ietf-l3-unicast-topology:l3-node-attributes": {
+                            "name": "HL5-1-2",
+                            "router-id": ["5.5.5.1"],
+                            "prefix": [
+                                {
+                                    "prefix": "10.95.90.126/24"
+                                }
+                            ]
+                        },
+                        "ietf-network-topology:termination-point": [
+                            {
+                                "tp-id": "eth-1/0/5.1",
+                                "ietf-l3-unicast-topology:l3-termination-point-attributes": {
+                                    "ip-address": ["5.1.2.9/30"]              
+                                }
+                            },
+                            {
+                                "tp-id": "eth-1/0/9.33",
+                                "ietf-l3-unicast-topology:l3-termination-point-attributes": {
+                                    "ip-address": ["172.16.3.1/24"]              
+                                }
+                            },
+                            {
+                                "tp-id": "eth-1/0/10.41",
+                                "ietf-l3-unicast-topology:l3-termination-point-attributes": {
+                                    "ip-address": ["99.4.41.5/24","2001::99:4:41:5/112"]              
+                                }
+                            },
+                            {
+                                "tp-id": "eth-1/0/19.55",
+                                "ietf-l3-unicast-topology:l3-termination-point-attributes": {
+                                    "ip-address": ["99.5.19.2/24","2001::99:5:19:2/112"]              
+                                }
+                            },
+                            {
+                                "tp-id": "eth-1/0/20.533",
+                                "ietf-l3-unicast-topology:l3-termination-point-attributes": {
+                                    "ip-address": ["172.16.13.13/16"]             
+                                }
+                            },
+                            {
+                                "tp-id": "eth-1/0/22.111",
+                                "ietf-l3-unicast-topology:l3-termination-point-attributes": {
+                                    "ip-address": ["172.16.2.1/24"]              
+                                }
+                            },
+                            {
+                                "tp-id": "eth-1/0/25.55",
+                                "ietf-l3-unicast-topology:l3-termination-point-attributes": {
+                                    "ip-address": ["99.5.55.1/24","2001::99:5:55:1/112"]              
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "node-id": "5.5.5.7",
+                        "ietf-l3-unicast-topology:l3-node-attributes": {
+                            "name": "HL5-3-2",
+                            "router-id": ["5.5.5.5"],
+                            "prefix": [
+                                {
+                                    "prefix": "10.95.86.167/24"
+                                }
+                            ]
+                        },
+                        "ietf-network-topology:termination-point": [
+                            {
+                                "tp-id": "GigabitEthernet0/2/2",
+                                "ietf-l3-unicast-topology:l3-termination-point-attributes": {
+                                    "ip-address": ["20.0.3.2/24"]              
+                                }
+                            },
+                            {
+                                "tp-id": "GigabitEthernet0/2/5",
+                                "ietf-l3-unicast-topology:l3-termination-point-attributes": {
+                                    "ip-address": ["99.4.58.5/24"]             
+                                }
+                            },
+                            {
+                                "tp-id": "GigabitEthernet0/2/7",
+                                "ietf-l3-unicast-topology:l3-termination-point-attributes": {
+                                    "ip-address": ["99.4.59.5/24"]             
+                                }
+                            },
+                            {
+                                "tp-id": "GigabitEthernet0/2/13",
+                                "ietf-l3-unicast-topology:l3-termination-point-attributes": {
+                                    "ip-address": ["192.168.45.11/24"]              
+                                }
+                            },
+                            {
+                                "tp-id": "GigabitEthernet0/2/25",
+                                "ietf-l3-unicast-topology:l3-termination-point-attributes": {
+                                    "ip-address": ["172.168.10.2/24"]             
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "node-id": "4.4.4.4",
+                        "ietf-l3-unicast-topology:l3-node-attributes": {
+                            "name": "HL4-1-2",
+                            "router-id": ["4.4.4.4"],
+                            "prefix": [
+                                {
+                                    "prefix": "10.95.86.107/24"
+                                }
+                            ]
+                        },
+                        "ietf-network-topology:termination-point": [
+                            {
+                                "tp-id": "OP_to_1/2/8",
+                                "ietf-l3-unicast-topology:l3-termination-point-attributes": {
+                                    "ip-address": ["10.3.55.2/24"]              
+                                }
+                            },
+                            {
+                                "tp-id": "OP_to_1210",
+                                "ietf-l3-unicast-topology:l3-termination-point-attributes": {
+                                    "ip-address": ["10.10.55.2/24"]              
+                                }
+                            },
+                            {
+                                "tp-id": "OP_to_129",
+                                "ietf-l3-unicast-topology:l3-termination-point-attributes": {
+                                    "ip-address": ["10.9.55.2/24"]              
+                                }
+                            },
+                            {
+                                "tp-id": "to_HL3-1-2",
+                                "ietf-l3-unicast-topology:l3-termination-point-attributes": {
+                                    "ip-address": ["99.3.43.4/24"]              
+                                }
+                            },
+                            {
+                                "tp-id": "to_HL4-2-2",
+                                "ietf-l3-unicast-topology:l3-termination-point-attributes": {
+                                    "ip-address": ["99.4.48.4/24"]              
+                                }
+                            },
+                            {
+                                "tp-id": "to_HL5-1-2",
+                                "ietf-l3-unicast-topology:l3-termination-point-attributes": {
+                                    "ip-address": ["99.4.41.4/24"]              
+                                }
+                            },
+                            {
+                                "tp-id": "to_HL5-3-2",
+                                "ietf-l3-unicast-topology:l3-termination-point-attributes": {
+                                    "ip-address": ["99.4.58.4/24"]              
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "node-id": "4.4.4.5",
+                        "ietf-l3-unicast-topology:l3-node-attributes": {
+                            "name": "HL4-2-2",
+                            "router-id": ["4.4.4.5"],
+                            "prefix": [
+                                {
+                                    "prefix": "10.95.90.85/24"
+                                }
+                            ]
+                        },
+                        "ietf-network-topology:termination-point": [
+                            {
+                                "tp-id": "to_HL3-2-2",
+                                "ietf-l3-unicast-topology:l3-termination-point-attributes": {
+                                    "ip-address": ["99.3.44.4/24","2001::99:3:44:4/112"]              
+                                }
+                            },
+                            {
+                                "tp-id": "to_HL4-1-2",
+                                "ietf-l3-unicast-topology:l3-termination-point-attributes": {
+                                    "ip-address": ["99.4.48.5/24","2001::99:4:48:5/112"]              
+                                }
+                            },
+                            {
+                                "tp-id": "to_HL5-3-2",
+                                "ietf-l3-unicast-topology:l3-termination-point-attributes": {
+                                    "ip-address": ["99.4.59.4/24","2001::99:4:59:4/112"]              
+                                }
+                            },
+                            {
+                                "tp-id": "to_HL5-2-2",
+                                "ietf-l3-unicast-topology:l3-termination-point-attributes": {
+                                    "ip-address": ["99.4.42.4/24","2001::99:4:42:4/112"]              
+                                }
+                            }
+                        ]
+                    }   
+                ],
+                
+                "ietf-network-topology:link": [
+                    {
+                        "link-id": "HL5-2-2 eth-1/0/25.55==HL5-1-2 eth-1/0/25.55",
+                        "source": {
+                            "source-node": "5.5.5.5",
+                            "source-tp"  : "eth-1/0/25.55"
+                        },
+                        "destination": {
+                            "dest-node": "5.5.5.1",
+                            "dest-tp"  : "eth-1/0/25.55"
+                        },
+                        "ietf-te-topology:te":{
+                            "te-link-attributes":{
+                                "max-link-bandwidth": { "te-bandwidth": {"generic" : "1000000"} },
+                                "max-resv-link-bandwidth": { "te-bandwidth": {"generic" : "1000000"} },
+                                "unreserved-bandwidth": [
+                                    {"priority": 0, "te-bandwidth": {"generic" : "1000000"}},
+                                    {"priority": 1, "te-bandwidth": {"generic" : "0"}},
+                                    {"priority": 2, "te-bandwidth": {"generic" : "0"}},
+                                    {"priority": 3, "te-bandwidth": {"generic" : "0"}},
+                                    {"priority": 4, "te-bandwidth": {"generic" : "0"}},
+                                    {"priority": 5, "te-bandwidth": {"generic" : "0"}},
+                                    {"priority": 6, "te-bandwidth": {"generic" : "0"}},
+                                    {"priority": 7, "te-bandwidth": {"generic" : "0"} }
+                                ]
+
+                            }
+                        }
+                    },
+                    {
+                        "link-id": "HL4-1-2 to_HL5-1-2==HL5-1-2 eth-1/0/25.55",
+                        "source": {
+                            "source-node": "4.4.4.4",
+                            "source-tp"  : "to_HL5-1-2"
+                        },
+                        "destination": {
+                            "dest-node": "5.5.5.1",
+                            "dest-tp"  : "eth-1/0/25.55"
+                        },
+                        "ietf-te-topology:te":{
+                            "te-link-attributes":{
+                                "max-link-bandwidth": { "te-bandwidth": {"generic" : "1000000"} },
+                                "max-resv-link-bandwidth": { "te-bandwidth": {"generic" : "1000000"} },
+                                "unreserved-bandwidth": [
+                                    {"priority": 0, "te-bandwidth": {"generic" : "1000000"}},
+                                    {"priority": 1, "te-bandwidth": {"generic" : "0"}},
+                                    {"priority": 2, "te-bandwidth": {"generic" : "0"}},
+                                    {"priority": 3, "te-bandwidth": {"generic" : "0"}},
+                                    {"priority": 4, "te-bandwidth": {"generic" : "0"}},
+                                    {"priority": 5, "te-bandwidth": {"generic" : "0"}},
+                                    {"priority": 6, "te-bandwidth": {"generic" : "0"}},
+                                    {"priority": 7, "te-bandwidth": {"generic" : "0"} }
+                                ]
+
+                            }
+                        }
+                    },
+                    {
+                        "link-id": "HL4-1-2 to_HL5-3-2==HL5-3-2 GigabitEthernet0/2/5",
+                        "source": {
+                            "source-node": "4.4.4.4",
+                            "source-tp"  : "to_HL5-3-2"
+                        },
+                        "destination": {
+                            "dest-node": "5.5.5.7",
+                            "dest-tp"  : "GigabitEthernet0/2/5"
+                        },
+                        "ietf-te-topology:te":{
+                            "te-link-attributes":{
+                                "max-link-bandwidth": { "te-bandwidth": {"generic" : "1000000"} },
+                                "max-resv-link-bandwidth": { "te-bandwidth": {"generic" : "1000000"} },
+                                "unreserved-bandwidth": [
+                                    {"priority": 0, "te-bandwidth": {"generic" : "1000000"}},
+                                    {"priority": 1, "te-bandwidth": {"generic" : "0"}},
+                                    {"priority": 2, "te-bandwidth": {"generic" : "0"}},
+                                    {"priority": 3, "te-bandwidth": {"generic" : "0"}},
+                                    {"priority": 4, "te-bandwidth": {"generic" : "0"}},
+                                    {"priority": 5, "te-bandwidth": {"generic" : "0"}},
+                                    {"priority": 6, "te-bandwidth": {"generic" : "0"}},
+                                    {"priority": 7, "te-bandwidth": {"generic" : "0"} }
+                                ]
+
+                            }
+                        }
+                    },
+                    {
+                        "link-id": "HL4-1-2 to_HL4-2-2==HL4-2-2 to_HL4-1-2",
+                        "source": {
+                            "source-node": "4.4.4.4",
+                            "source-tp"  : "to_HL4-2-2"
+                        },
+                        "destination": {
+                            "dest-node": "4.4.4.5",
+                            "dest-tp"  : "to_HL4-1-2"
+                        },
+                        "ietf-te-topology:te":{
+                            "te-link-attributes":{
+                                "max-link-bandwidth": { "te-bandwidth": {"generic" : "1000000"} },
+                                "max-resv-link-bandwidth": { "te-bandwidth": {"generic" : "1000000"} },
+                                "unreserved-bandwidth": [
+                                    {"priority": 0, "te-bandwidth": {"generic" : "1000000"}},
+                                    {"priority": 1, "te-bandwidth": {"generic" : "0"}},
+                                    {"priority": 2, "te-bandwidth": {"generic" : "0"}},
+                                    {"priority": 3, "te-bandwidth": {"generic" : "0"}},
+                                    {"priority": 4, "te-bandwidth": {"generic" : "0"}},
+                                    {"priority": 5, "te-bandwidth": {"generic" : "0"}},
+                                    {"priority": 6, "te-bandwidth": {"generic" : "0"}},
+                                    {"priority": 7, "te-bandwidth": {"generic" : "0"} }
+                                ]
+
+                            }
+                        }
+                    },
+                    {
+                        "link-id": "HL4-2-2 to_HL5-3-2==HL5-3-2 GigabitEthernet0/2/7",
+                        "source": {
+                            "source-node": "4.4.4.5",
+                            "source-tp"  : "to_HL5-3-2"
+                        },
+                        "destination": {
+                            "dest-node": "5.5.5.7",
+                            "dest-tp"  : "GigabitEthernet0/2/7"
+                        },
+                        "ietf-te-topology:te":{
+                            "te-link-attributes":{
+                                "max-link-bandwidth": { "te-bandwidth": {"generic" : "1000000"} },
+                                "max-resv-link-bandwidth": { "te-bandwidth": {"generic" : "1000000"} },
+                                "unreserved-bandwidth": [
+                                    {"priority": 0, "te-bandwidth": {"generic" : "1000000"}},
+                                    {"priority": 1, "te-bandwidth": {"generic" : "0"}},
+                                    {"priority": 2, "te-bandwidth": {"generic" : "0"}},
+                                    {"priority": 3, "te-bandwidth": {"generic" : "0"}},
+                                    {"priority": 4, "te-bandwidth": {"generic" : "0"}},
+                                    {"priority": 5, "te-bandwidth": {"generic" : "0"}},
+                                    {"priority": 6, "te-bandwidth": {"generic" : "0"}},
+                                    {"priority": 7, "te-bandwidth": {"generic" : "0"} }
+                                ]
+
+                            }
+                        }
+                    },
+                    {
+                        "link-id": "HL4-2-2 to_HL5-2-2==HL5-2-2 eth-1/0/10.42",
+                        "source": {
+                            "source-node": "4.4.4.5",
+                            "source-tp"  : "to_HL5-2-2"
+                        },
+                        "destination": {
+                            "dest-node": "5.5.5.5",
+                            "dest-tp"  : "eth-1/0/10.42"
+                        },
+                        "ietf-te-topology:te":{
+                            "te-link-attributes":{
+                                "max-link-bandwidth": { "te-bandwidth": {"generic" : "1000000"} },
+                                "max-resv-link-bandwidth": { "te-bandwidth": {"generic" : "1000000"} },
+                                "unreserved-bandwidth": [
+                                    {"priority": 0, "te-bandwidth": {"generic" : "1000000"}},
+                                    {"priority": 1, "te-bandwidth": {"generic" : "0"}},
+                                    {"priority": 2, "te-bandwidth": {"generic" : "0"}},
+                                    {"priority": 3, "te-bandwidth": {"generic" : "0"}},
+                                    {"priority": 4, "te-bandwidth": {"generic" : "0"}},
+                                    {"priority": 5, "te-bandwidth": {"generic" : "0"}},
+                                    {"priority": 6, "te-bandwidth": {"generic" : "0"}},
+                                    {"priority": 7, "te-bandwidth": {"generic" : "0"} }
+                                ]
+
+                            }
+                        }
+                    }   
+                ]
+            }
+        ]
+    }
+}
