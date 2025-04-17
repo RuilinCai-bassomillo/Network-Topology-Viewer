@@ -121,7 +121,7 @@ export default function Dashboard({setOpen, updateState, setUpdateState}) {
                                 textDecoration: 'none',
                             }}
                         >
-                            IETF TE Viewer
+                            Network Topology Viewer
                         </Typography>
 
 
