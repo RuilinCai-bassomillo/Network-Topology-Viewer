@@ -11,4 +11,6 @@ Hover the cursor on the nodes or links to show the tooltips which include the de
 
 Double Click the nodes and links to show the detail json
 
+Also you can drag the nodes to change their places
+
 Notice: You can view the test screenshots under "./Test Screenshot" in this repo
